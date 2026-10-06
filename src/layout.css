@@ -357,9 +357,10 @@
 
 /* ---------- RUME stat (dark) section ---------- */
 .rume-stat {
-  background: var(--bg);
+  background: var(--offwhite);
+  color: rgb(20, 20, 20);
   padding: 70px 40px;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  border-top: 1px solid rgba(20, 20, 20, 0.14);
 }
 .rume-stat-inner {
   max-width: 1400px;
@@ -399,7 +400,7 @@
 .rume-stat-conclusion {
   max-width: 460px;
   font: 400 20px / 1.55 var(--body);
-  color: rgba(220, 220, 220, 0.75);
+  color: rgba(20, 20, 20, 0.75);
 }
 
 /* ---------- RUME process (dark) section ---------- */
@@ -517,10 +518,10 @@
 
 /* ---------- RUME final CTA (dark) section: "Não se limite apenas ao Instagram." ---------- */
 .rume-cta {
-  background: var(--bg);
-  color: var(--text);
+  background: var(--offwhite);
+  color: rgb(20, 20, 20);
   padding: 64px 40px 56px;
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
+  border-top: 1px solid rgba(20, 20, 20, 0.14);
 }
 .rume-cta-inner {
   max-width: 1400px;
@@ -571,7 +572,7 @@
   margin-left: auto;
   margin-right: auto;
   font: 400 17px / 1.6 var(--body);
-  color: rgba(220, 220, 220, 0.75);
+  color: rgba(20, 20, 20, 0.75);
 }
 .rume-cta-paragraph + .rume-cta-paragraph {
   margin-top: 20px;
@@ -604,14 +605,14 @@
   width: 100%;
   max-width: 480px;
   padding: 26px 32px;
-  background: var(--offwhite);
-  color: rgb(20, 20, 20);
+  background: rgb(20, 20, 20);
+  color: var(--offwhite);
   border-radius: 16px;
   cursor: pointer;
-  transition: background-color 300ms ease;
+  transition: background-color 300ms ease, color 300ms ease;
 }
 .rume-cta-button:focus-visible {
-  outline: 2px solid var(--offwhite);
+  outline: 2px solid rgb(20, 20, 20);
   outline-offset: 4px;
 }
 .rume-cta-button-text {
@@ -627,6 +628,7 @@
 @media (hover: hover) and (pointer: fine) {
   .rume-cta-button:hover {
     background: var(--accent-orange);
+    color: rgb(20, 20, 20);
   }
   .rume-cta-button:hover .rume-cta-button-arrow {
     transform: translateX(5px);
@@ -635,8 +637,8 @@
 
 /* ---------- RUME about / founder (light) section ---------- */
 .rume-about {
-  background: var(--offwhite);
-  color: rgb(20, 20, 20);
+  background: var(--bg);
+  color: var(--text);
   padding: 100px 40px;
 }
 .rume-about-inner {
@@ -685,6 +687,7 @@
 }
 .rume-about-paragraphs p {
   font: 400 17px / 1.6 var(--body);
+  color: rgba(220, 220, 220, 0.75);
 }
 
 .rume-footer {
