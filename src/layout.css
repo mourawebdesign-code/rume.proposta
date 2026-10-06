@@ -152,12 +152,18 @@
 .home-hero-headline {
   text-align: center;
 }
+.home-hero-headline {
+  --hero-fs: min(168px, calc((100vw - 110px) / 11.7));
+}
 .home-hero-line {
   display: block;
   white-space: nowrap;
-  font: 800 clamp(24px, calc((100vw - 110px) / 14.2), 168px) / 0.92 var(--display);
+  font: 800 var(--hero-fs) / 0.92 var(--display);
   letter-spacing: -0.025em;
   text-transform: uppercase;
+}
+.home-hero-line--big {
+  font-size: calc(var(--hero-fs) * 1.717);
 }
 .home-tags {
   display: flex;
@@ -827,7 +833,7 @@
 }
 
 /* ---------- home portfolio showcase: no caption, bordered frame only ---------- */
-.card--portfolio {
+.featured .card--portfolio {
   height: auto;
 }
 .card--portfolio .card-bg {
@@ -849,26 +855,32 @@
 
 @media (max-width: 1199px) and (min-width: 600px) {
   .home-light {
-    padding-top: 84px;
+    padding-top: 56px;
+    gap: 36px;
   }
   .home-header {
     padding: 0 40px;
   }
   .home-tags {
-    padding-top: 88px;
-    padding-bottom: 20px;
+    padding-top: 28px;
+    padding-bottom: 0;
+  }
+  .home-subheadline {
+    max-width: none;
+    font-size: min(20px, calc((100vw - 80px) / 32));
+    text-wrap: balance;
   }
   .featured {
     width: calc(100% - 32px);
   }
   .featured.featured--row1 {
-    padding-bottom: 36px;
+    padding-bottom: 24px;
   }
   .featured.featured--row2 {
-    padding-bottom: 44px;
+    padding-bottom: 28px;
   }
   .home-strategic {
-    padding: 70px 40px 60px;
+    padding: 56px 40px 40px;
   }
   .home-strategic-title-wrap {
     width: min(88vw, 1160px);
@@ -877,7 +889,7 @@
     font-size: 16px;
   }
   .home-light-2 {
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .rume-strategy {
     padding: 70px 40px 50px;
@@ -990,33 +1002,35 @@
     gap: 0;
   }
   .home-light {
-    padding-top: 70px;
+    padding-top: 40px;
     gap: 0;
   }
   .home-header {
-    padding: 24px 20px 0;
+    padding: 0 20px;
   }
-  .home-hero-line {
-    font-size: calc((100vw - 44px) / 14.2);
+  .home-hero-headline {
+    --hero-fs: calc((100vw - 44px) / 11.7);
   }
   .home-tags {
-    padding: 56px 20px 30px;
+    padding: 16px 0 28px;
   }
   .home-subheadline {
     max-width: none;
-    font-size: 16px;
+    font-size: calc((100vw - 40px) / 32);
+    line-height: 1.45;
+    text-wrap: balance;
   }
   .featured {
     width: calc(100% - 32px);
   }
   .featured.featured--row1 {
-    padding-bottom: 28px;
+    padding-bottom: 20px;
   }
   .featured.featured--row2 {
-    padding-bottom: 32px;
+    padding-bottom: 24px;
   }
   .home-strategic {
-    padding: 50px 20px 36px;
+    padding: 40px 20px 28px;
   }
   .home-strategic-title-wrap {
     width: min(92vw, 1160px);
@@ -1025,7 +1039,7 @@
     font-size: 15px;
   }
   .home-light-2 {
-    padding-top: 36px;
+    padding-top: 28px;
   }
   .rume-strategy {
     padding: 50px 20px 36px;

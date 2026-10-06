@@ -42,8 +42,8 @@ export default function Home() {
           <div className="home-logo">
             <motion.div initial={{ y: 700 }} animate={{ y: 0 }} transition={{ duration: 1.5, delay: 0.2, ease: EASE_RISE }}>
               <div className="home-hero-headline">
-                <span className="home-hero-line grain-ink">Sua clínica</span>
-                <span className="home-hero-line text-accent">Merece mais visibilidade</span>
+                <span className="home-hero-line grain-ink">Sua clínica merece+</span>
+                <span className="home-hero-line home-hero-line--big text-accent">Visibilidade</span>
               </div>
             </motion.div>
           </div>
