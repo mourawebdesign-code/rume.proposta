@@ -34,15 +34,14 @@ const steps = [
 ];
 
 // Desktop/tablet: one flex strip, the active step's width expands while the
-// others compress to numbered slices (title set vertically). Mobile: a plain
-// vertical accordion carrying the same number/title/text content.
+// others compress to numbered slices (title set vertically). Same strip on mobile.
 export default function ProcessSteps() {
   const [active, setActive] = useState(0);
   const total = ACTIVE_WEIGHT + (steps.length - 1) * INACTIVE_WEIGHT;
 
   return (
     <div className="process">
-      <div className="process-desktop only-wide" role="tablist" aria-label="Como funciona">
+      <div className="process-desktop" role="tablist" aria-label="Como funciona">
         {steps.map((s, i) => {
           const isActive = i === active;
           const widthPct = ((isActive ? ACTIVE_WEIGHT : INACTIVE_WEIGHT) / total) * 100;
@@ -90,37 +89,6 @@ export default function ProcessSteps() {
         })}
       </div>
 
-      <div className="process-mobile only-mobile">
-        {steps.map((s, i) => {
-          const isOpen = i === active;
-          return (
-            <div className="process-accordion-item" key={s.num}>
-              <button
-                type="button"
-                className="process-accordion-head"
-                aria-expanded={isOpen}
-                onClick={() => setActive(isOpen ? -1 : i)}
-              >
-                <span className="process-num">{s.num}</span>
-                <span className="process-accordion-title">{s.title}</span>
-              </button>
-              <AnimatePresence initial={false}>
-                {isOpen && (
-                  <motion.div
-                    className="process-accordion-body"
-                    initial={{ height: 0, opacity: 0 }}
-                    animate={{ height: 'auto', opacity: 1 }}
-                    exit={{ height: 0, opacity: 0 }}
-                    transition={{ duration: 0.4, ease: EASE }}
-                  >
-                    <p className="process-text">{s.text}</p>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </div>
-          );
-        })}
-      </div>
     </div>
   );
 }

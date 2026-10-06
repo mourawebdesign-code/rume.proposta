@@ -243,6 +243,7 @@
 .rume-strategy-inner {
   max-width: 1400px;
   margin: 0 auto;
+  text-align: center;
 }
 .rume-eyebrow {
   opacity: 0.55;
@@ -251,6 +252,7 @@
   margin-top: 18px;
   display: flex;
   flex-direction: column;
+  align-items: center;
   font: 800 clamp(26px, 3.4vw, 44px) / 1.15 var(--display);
   letter-spacing: -0.025em;
   text-transform: uppercase;
@@ -271,16 +273,16 @@
   column-gap: 60px;
 }
 .rume-pillar {
-  padding-left: 40px;
+  padding: 0 20px;
   border-left: 1px solid rgba(255, 255, 255, 0.14);
 }
 .rume-pillar:first-child {
-  padding-left: 0;
   border-left: none;
 }
 .rume-pillar-meta {
   display: flex;
   align-items: baseline;
+  justify-content: center;
   gap: 14px;
 }
 .rume-pillar-num {
@@ -300,7 +302,7 @@
   text-transform: uppercase;
 }
 .rume-pillar-text {
-  margin-top: 18px;
+  margin: 18px auto 0;
   max-width: 400px;
   font: 400 16px / 1.65 var(--body);
   color: rgba(220, 220, 220, 0.75);
@@ -332,7 +334,7 @@
   }
 }
 .rume-pillar-features {
-  margin-top: 28px;
+  margin: 28px auto 0;
   padding-top: 18px;
   border-top: 1px solid rgba(255, 255, 255, 0.14);
   display: flex;
@@ -366,9 +368,9 @@
 .rume-stat-top {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 32px 32px;
+  gap: 32px 64px;
 }
 /* Sized so the number's own line box (font-size * 0.8) tracks the real
    rendered height of the sentence + gap + conclusion at each of the
@@ -409,15 +411,16 @@
 .rume-process-inner {
   max-width: 1400px;
   margin: 0 auto;
+  text-align: center;
 }
 .rume-process-eyebrow {
   opacity: 0.55;
 }
 .rume-process-intro {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 440px);
-  align-items: end;
-  column-gap: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 28px;
   margin-top: 18px;
 }
 .rume-process-headline {
@@ -428,13 +431,13 @@
 .rume-process-headline-lines {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .rume-process-headline-lines.only-wide .rume-process-headline-line {
   white-space: nowrap;
 }
 .rume-process-support {
-  max-width: 440px;
-  margin-bottom: 8px;
+  max-width: 560px;
   font: 400 17px / 1.6 var(--body);
 }
 
@@ -511,40 +514,6 @@
 .process-panel:hover .process-title-vertical {
   opacity: 1;
 }
-.process-mobile {
-  display: none;
-  flex-direction: column;
-}
-.process-accordion-item {
-  border-top: 1px solid rgba(255, 255, 255, 0.14);
-}
-.process-accordion-item:last-child {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.14);
-}
-.process-accordion-head {
-  width: 100%;
-  display: flex;
-  align-items: baseline;
-  gap: 20px;
-  padding: 22px 0;
-  background: none;
-  border: none;
-  color: var(--text);
-  text-align: left;
-  cursor: pointer;
-}
-.process-accordion-title {
-  font: 700 20px / 1.15 var(--display);
-  text-transform: uppercase;
-  letter-spacing: -0.2px;
-}
-.process-accordion-body {
-  overflow: hidden;
-}
-.process-accordion-body .process-text {
-  max-width: none;
-  margin: 0 0 26px;
-}
 
 /* ---------- RUME final CTA (dark) section: "Não se limite apenas ao Instagram." ---------- */
 .rume-cta {
@@ -558,10 +527,11 @@
   margin: 0 auto;
 }
 .rume-cta-top {
-  display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
-  align-items: start;
-  column-gap: 64px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 40px;
+  text-align: center;
 }
 /* Headline + CTA live in one flex column, so the gap between them is a fixed,
    self-contained value — never stretched by how tall the copy column next to
@@ -570,6 +540,9 @@
 .rume-cta-headline-col {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 800px;
   gap: 36px;
   /* Sizes the headline off its own column's inline size (not the viewport),
      so "Não se limite apenas ao" / "Instagram." always resolve to exactly
@@ -577,11 +550,14 @@
   container-type: inline-size;
 }
 .rume-cta-copy {
+  width: 100%;
+  max-width: 560px;
   padding-top: 0;
 }
 .rume-cta-headline {
   display: flex;
   flex-direction: column;
+  align-items: center;
   font: 800 clamp(40px, 6.7cqi, 104px) / 0.94 var(--display);
   letter-spacing: -0.025em;
   text-transform: uppercase;
@@ -591,7 +567,9 @@
   white-space: nowrap;
 }
 .rume-cta-paragraph {
-  max-width: 460px;
+  max-width: 520px;
+  margin-left: auto;
+  margin-right: auto;
   font: 400 17px / 1.6 var(--body);
   color: rgba(220, 220, 220, 0.75);
 }
@@ -607,8 +585,13 @@
 .rume-cta-action {
   margin-top: 0;
 }
+.rume-cta-action.only-wide {
+  display: none !important;
+}
 .rume-cta-action.only-mobile {
-  margin-top: 28px;
+  display: flex !important;
+  justify-content: center;
+  margin-top: 32px;
 }
 /* Compact off-white pill: belongs to the copy column (same ~460px measure as
    the paragraphs above it), not a full-width bar. Background swap is the
@@ -659,13 +642,15 @@
 .rume-about-inner {
   max-width: 1400px;
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
-  column-gap: 90px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  gap: 44px;
+  text-align: center;
 }
 .rume-about-photo {
-  align-self: center;
+  order: 2;
+  width: min(100%, 340px);
   aspect-ratio: 3 / 4;
   border-radius: 20px;
   overflow: hidden;
@@ -678,32 +663,25 @@
   object-fit: cover;
 }
 .rume-about-content {
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
+  display: contents;
 }
 .rume-about-headline {
+  order: 1;
   max-width: 720px;
   font: 700 clamp(28px, 3vw, 44px) / 1.1 var(--display);
   letter-spacing: -0.3px;
   text-transform: uppercase;
 }
-.rume-about-headline-compact {
-  display: none;
-}
-@media (max-width: 1199px) {
-  .rume-about-headline-wide {
-    display: none;
-  }
-  .rume-about-headline-compact {
-    display: inline;
-  }
+.rume-about-headline-wide {
+  white-space: nowrap;
 }
 .rume-about-paragraphs {
   display: flex;
   flex-direction: column;
+  order: 3;
+  align-items: center;
   gap: 20px;
-  max-width: 460px;
+  max-width: 560px;
 }
 .rume-about-paragraphs p {
   font: 400 17px / 1.6 var(--body);
@@ -717,14 +695,16 @@
   max-width: 1400px;
   margin: 0 auto;
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
-  gap: 24px;
+  text-align: center;
+  gap: 16px;
 }
 .rume-footer-brand {
   display: flex;
-  align-items: baseline;
-  gap: 12px;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
 .rume-footer-mark {
   font: 700 16px / 1 var(--display);
@@ -901,6 +881,7 @@
   }
   .rume-pillar {
     padding-left: 0;
+    padding-right: 0;
     padding-top: 36px;
     border-left: none;
     border-top: 1px solid rgba(255, 255, 255, 0.14);
@@ -916,15 +897,29 @@
   }
   .rume-pillar-media {
     height: 320px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .rume-stat {
     padding: 50px 40px;
   }
+  .rume-stat-top {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 24px;
+  }
   .rume-stat-number {
     font: 800 clamp(140px, 17vw, 300px) / 0.85 var(--display);
   }
+  .rume-stat-copy {
+    flex: none;
+    width: 100%;
+    max-width: 560px;
+  }
   .rume-stat-conclusion {
-    max-width: 400px;
+    max-width: 440px;
+    margin: 0 auto;
   }
   .rume-process {
     padding: 50px 40px;
@@ -975,17 +970,13 @@
     padding: 70px 40px;
   }
   .rume-about-inner {
-    column-gap: 48px;
-    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
-  }
-  .rume-about-content {
     gap: 36px;
   }
   .rume-about-headline {
     font-size: clamp(26px, 3.6vw, 40px);
   }
-  .rume-about-paragraphs {
-    max-width: none;
+  .rume-about-photo {
+    width: min(100%, 300px);
   }
   .rume-footer {
     padding: 28px 40px;
@@ -1051,6 +1042,7 @@
   }
   .rume-pillar {
     padding-left: 0;
+    padding-right: 0;
     padding-top: 32px;
     border-left: none;
     border-top: 1px solid rgba(255, 255, 255, 0.14);
@@ -1072,7 +1064,8 @@
   }
   .rume-stat-top {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
+    text-align: center;
     gap: 24px;
   }
   .rume-stat-number {
@@ -1080,6 +1073,7 @@
     line-height: 0.85;
   }
   .rume-stat-copy {
+    flex: none;
     margin-top: 0;
   }
   .rume-stat-sentence {
@@ -1099,7 +1093,39 @@
     max-width: none;
   }
   .process {
-    margin-top: 48px;
+    margin-top: 40px;
+  }
+  .process-desktop {
+    height: 460px;
+    border-radius: 16px;
+  }
+  .process-panel {
+    padding: 18px 0;
+    align-items: center;
+  }
+  .process-panel.is-active {
+    padding: 18px 16px;
+    align-items: stretch;
+  }
+  .process-title-vertical {
+    align-self: center;
+  }
+  .process-num {
+    font-size: 11px;
+  }
+  .process-content {
+    margin-bottom: 8px;
+  }
+  .process-title {
+    font-size: 21px;
+  }
+  .process-text {
+    margin-top: 12px;
+    font-size: 14px;
+    line-height: 1.55;
+  }
+  .process-title-vertical {
+    font-size: 13px;
   }
   .rume-cta {
     padding: 36px 20px 36px;
@@ -1131,14 +1157,14 @@
     padding: 50px 20px;
   }
   .rume-about-inner {
-    grid-template-columns: 1fr;
-    row-gap: 32px;
-  }
-  .rume-about-content {
     gap: 28px;
   }
   .rume-about-headline {
     max-width: none;
+    font-size: calc((100vw - 44px) / 17);
+  }
+  .rume-about-photo {
+    width: min(100%, 240px);
   }
   .rume-about-paragraphs {
     max-width: none;
@@ -1147,9 +1173,7 @@
     padding: 28px 20px;
   }
   .rume-footer-inner {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 20px;
+    gap: 14px;
   }
   .card {
     height: 395px;

@@ -371,12 +371,6 @@ export default function Home() {
                 Prazer, eu sou Ryan.
                 <br />E vou cuidar do seu projeto.
               </span>
-              <span className="rume-about-headline-compact">
-                Prazer, eu sou Ryan.
-                <br />E vou cuidar
-                <br />
-                do seu projeto.
-              </span>
             </motion.h2>
 
             <motion.div
