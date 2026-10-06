@@ -490,7 +490,15 @@
   margin-top: auto;
   margin-bottom: 34px;
 }
+.process-icon {
+  display: block;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 20px;
+  color: var(--accent-orange);
+}
 .process-title {
+  text-wrap: balance;
   font: 700 clamp(27px, 2.3vw, 36px) / 1.05 var(--display);
   text-transform: uppercase;
   letter-spacing: -0.2px;
@@ -616,7 +624,8 @@
   outline-offset: 4px;
 }
 .rume-cta-button-text {
-  font: 700 16px / 1 var(--display);
+  text-wrap: balance;
+  font: 700 16px / 1.2 var(--display);
   letter-spacing: 0.04em;
   text-transform: uppercase;
 }
@@ -1134,6 +1143,11 @@
   }
   .process-content {
     margin-bottom: 8px;
+  }
+  .process-icon {
+    width: 34px;
+    height: 34px;
+    margin-bottom: 14px;
   }
   .process-title {
     font-size: 21px;
