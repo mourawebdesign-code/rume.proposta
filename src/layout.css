@@ -1007,8 +1007,8 @@
   }
   .home-subheadline {
     max-width: none;
-    font-size: calc((100vw - 40px) / 32);
-    line-height: 1.45;
+    font-size: 15px;
+    line-height: 1.5;
     text-wrap: balance;
   }
   .featured {
@@ -1034,6 +1034,17 @@
   }
   .rume-strategy {
     padding: 50px 20px 36px;
+  }
+  .rume-headline {
+    display: block;
+    font-size: min(26px, calc(100vw / 17));
+    text-wrap: balance;
+  }
+  .rume-headline-line {
+    display: inline;
+  }
+  .rume-headline-line + .rume-headline-line::before {
+    content: ' ';
   }
   .rume-pillars {
     margin-top: 48px;
