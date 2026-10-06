@@ -490,11 +490,22 @@
   margin-top: auto;
   margin-bottom: 34px;
 }
+.process-open {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+.process-icon-wrap {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .process-icon {
   display: block;
-  width: 44px;
-  height: 44px;
-  margin-bottom: 20px;
+  width: 104px;
+  height: 104px;
   color: var(--accent-orange);
 }
 .process-title {
@@ -1145,9 +1156,8 @@
     margin-bottom: 8px;
   }
   .process-icon {
-    width: 34px;
-    height: 34px;
-    margin-bottom: 14px;
+    width: 88px;
+    height: 88px;
   }
   .process-title {
     font-size: 21px;

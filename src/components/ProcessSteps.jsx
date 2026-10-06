@@ -103,15 +103,17 @@ export default function ProcessSteps() {
                 {isActive ? (
                   <motion.div
                     key="open"
-                    className="process-content"
+                    className="process-open"
                     initial={{ opacity: 0, y: 10 }}
                     animate={{ opacity: 1, y: 0 }}
                     exit={{ opacity: 0, y: -6 }}
                     transition={{ duration: 0.35, delay: 0.2, ease: EASE }}
                   >
-                    {icons[i]}
-                    <h3 className="process-title">{s.title}</h3>
-                    <p className="process-text">{s.text}</p>
+                    <div className="process-icon-wrap">{icons[i]}</div>
+                    <div className="process-content">
+                      <h3 className="process-title">{s.title}</h3>
+                      <p className="process-text">{s.text}</p>
+                    </div>
                   </motion.div>
                 ) : (
                   <motion.span
