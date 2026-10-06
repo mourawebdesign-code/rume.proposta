@@ -154,7 +154,8 @@
 }
 .home-hero-line {
   display: block;
-  font: 800 clamp(56px, 11vw, 168px) / 0.92 var(--display);
+  white-space: nowrap;
+  font: 800 clamp(24px, calc((100vw - 110px) / 14.2), 168px) / 0.92 var(--display);
   letter-spacing: -0.025em;
   text-transform: uppercase;
 }
@@ -994,6 +995,9 @@
   }
   .home-header {
     padding: 24px 20px 0;
+  }
+  .home-hero-line {
+    font-size: calc((100vw - 44px) / 14.2);
   }
   .home-tags {
     padding: 56px 20px 30px;

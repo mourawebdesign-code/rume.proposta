@@ -42,8 +42,8 @@ export default function Home() {
           <div className="home-logo">
             <motion.div initial={{ y: 700 }} animate={{ y: 0 }} transition={{ duration: 1.5, delay: 0.2, ease: EASE_RISE }}>
               <div className="home-hero-headline">
-                <span className="home-hero-line grain-ink">Sua clínica merece</span>
-                <span className="home-hero-line text-accent">Ser a escolha.</span>
+                <span className="home-hero-line grain-ink">Sua clínica</span>
+                <span className="home-hero-line text-accent">Merece mais visibilidade</span>
               </div>
             </motion.div>
           </div>
@@ -54,8 +54,8 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ duration: 1.5, delay: 0.5, ease: 'linear' }}
             >
-              Sites estratégicos para clínicas de estética que querem ser encontradas, transmitir mais valor e
-              transformar interesse em oportunidades de agendamento.
+              Um site pode fazer sua clínica ser mais encontrada, transmitir mais valor e transformar visitas em novas
+              oportunidades de agendamento.
             </motion.p>
           </div>
         </header>
