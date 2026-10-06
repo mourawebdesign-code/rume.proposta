@@ -1,0 +1,185 @@
+/* Tokens extracted from the reference (computed styles) */
+:root {
+  --bg: rgb(0, 0, 0);
+  --text: rgb(220, 220, 220);
+  --muted: rgb(98, 98, 98);
+  --muted-2: rgb(99, 99, 99);
+  --muted-hover: rgb(186, 186, 186);
+  --card: rgb(20, 20, 20);
+  --card-2: rgb(18, 18, 18);
+  --offwhite: rgb(250, 248, 244);
+  /* The site's one accent color — a warm, terracotta-leaning orange in the
+     Claude brand family (#D97757), chosen to sit quietly on both the grained
+     off-white and the grained black. Single global token: every strategic
+     word highlight and the portfolio hover border reference this, never a
+     literal hex. */
+  --accent-orange: rgb(217, 119, 87);
+  --display: 'Archivo', 'Archivo Placeholder', sans-serif;
+  --body: 'Archivo', 'Archivo Placeholder', sans-serif;
+}
+
+/* Reusable grain for the light (off-white) surfaces only: a static, opaque
+   grayscale micro-noise tile composited at a few percent. The ::before sits in
+   an isolated stacking context at z-index -1, so it tints the surface but never
+   covers text, cards, screenshots or photos. */
+.grain-surface {
+  position: relative;
+  isolation: isolate;
+}
+.grain-surface::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  background-image: url('/grain.png');
+  background-repeat: repeat;
+  background-size: 160px 160px;
+  opacity: 0.055;
+  pointer-events: none;
+}
+
+/* Micro-grain for solid black display headlines only (never on body copy,
+   labels, buttons or white-on-dark text). The texture IS the ink color — a
+   near-black tile averaging the same rgb(20,20,20) already used — clipped to
+   the glyphs via background-clip so it reads as materiality in the black
+   masses, not as a separate overlay. Text stays real, selectable text. */
+/* The one strategic-emphasis utility: wraps a single word or short phrase
+   inside a headline to carry the accent color. Never combine with .grain-ink
+   on the same element — pick one treatment per span. */
+.text-accent {
+  color: var(--accent-orange);
+}
+
+.grain-ink {
+  background-image: url('/grain-text.png');
+  background-repeat: repeat;
+  background-size: 34px 34px;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--body);
+  overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img,
+video {
+  display: block;
+}
+
+/* ---------- shared type presets ---------- */
+.t-nav {
+  font: 500 14px/14px var(--body);
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.t-tag {
+  font: 400 20px/26px var(--body);
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.t-display-100 {
+  font: 400 100px/100px var(--display);
+  letter-spacing: -1.5px;
+  text-transform: uppercase;
+}
+.t-title-48 {
+  font: 400 48px/47.04px var(--display);
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+}
+.t-title-24 {
+  font: 400 24px/23.52px var(--display);
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+}
+.t-label-16 {
+  font: 400 16px/20.8px var(--display);
+  text-transform: capitalize;
+}
+.t-body-16 {
+  font: 400 16px/20.8px var(--body);
+}
+.t-small-14 {
+  font: 400 14px/19.6px var(--body);
+  letter-spacing: -0.3px;
+  text-transform: uppercase;
+}
+@media (max-width: 1199px) and (min-width: 600px) {
+  .t-tag {
+    font-size: 16px;
+    line-height: 20.8px;
+  }
+  .t-display-100 {
+    font-size: 80px;
+    line-height: 80px;
+  }
+}
+@media (max-width: 599px) {
+  .t-tag {
+    font-size: 14px;
+    line-height: 18.2px;
+  }
+  .t-display-100 {
+    font-size: 60px;
+    line-height: 65px;
+  }
+  .t-title-48 {
+    font-size: 36px;
+    line-height: 35.28px;
+  }
+  .t-title-24 {
+    font-size: 20px;
+    line-height: 19.6px;
+  }
+}
+
+/* ---------- media placeholder ---------- */
+.media {
+  position: relative;
+  overflow: hidden;
+  background: rgb(38, 38, 38);
+}
+.media > img,
+.media > video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: inherit;
+}

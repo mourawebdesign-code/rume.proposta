@@ -1,0 +1,182 @@
+URL https://apexfilms.framer.website/ H=5299
+DIV | 0,0 390x5299 | bgrgb(0, 0, 0)
+NAV | [Navigation Mobile - Homepage] | 0,0 390x844
+P | MENU | 336,20 39x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+DIV | [Logo Wrap] | 0,20 390x21
+A | [APEX_FILMS_LOGO] | 15,20 99x21 | op0
+MAIN | [Main Wrapper] | 0,93 390x4568
+HEADER | [Section Header] | 0,93 390x272 | bgrgba(255, 255, 255, 0)
+DIV | [Logo Wrapper] | 20,123 350x84
+DIV | [Animation Wrapper] | 20,123 350x84
+P | APEX FILMS | 22,123 347x83 | "Fjalla One" 267.714px w400 lh267.714px lsnormal rgb(220, 220, 220) none start
+DIV | [Header Tag Wrapper] | 20,207 350x158
+H1 | Cinematography studio based in Amsterdam | 107,247 177x36 | Poppins 14px w400 lh18.2px ls-0.3px rgb(220, 220, 220) uppercase center
+H2 | Unleashing the power of visual storytelling | 104,293 183x36 | Poppins 14px w400 lh18.2px ls-0.3px rgb(220, 220, 220) uppercase center
+SECTION | [Section Featured Projects] | 0,365 390x3835
+DIV | [Projects Row] | 0,365 390x1205
+DIV | [Collection Item Wrapper] | 10,365 370x395
+DIV | [Featured Video Card] | 10,365 370x395
+A | [Card Mobile] | 10,365 370x395
+DIV | [Background Wrap] | 10,365 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,370 360x332 | r17px
+DIV | 15,370 360x332 | r17px
+IMG | 15,370 360x332 | r17px | img cover natural:360x202 fdX2U2i7mWG3qPUBX0ZxhWCFXAo.jpg
+VIDEO | 15,370 360x332 | video auto:true cover natural:1280x720 Haylou%20thumnail.mp4
+DIV | [Text Wrapper] | 15,701 457x65
+P | Haylou | 25,715 51x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Advertisement | 25,735 92x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+DIV | [Collection Item Wrapper] | 10,770 370x395
+DIV | [Featured Video Card] | 10,770 370x395
+A | [Card Mobile] | 10,770 370x395
+DIV | [Background Wrap] | 10,770 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,775 360x332 | r17px
+DIV | 15,775 360x332 | r17px
+IMG | 15,775 360x332 | r17px | img cover natural:360x202 oVHFMG7pvtO0VintAtKqE5Zgmo.jpg
+VIDEO | 15,775 360x332 | video auto:true cover natural:1280x720 spyder%20thumbnail.mp4
+DIV | [Text Wrapper] | 15,1106 457x65
+P | Spyder 23 | 25,1120 72x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Advertisement | 25,1140 92x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+DIV | [Collection Item Wrapper] | 10,1175 370x395
+DIV | [Featured Video Card] | 10,1175 370x395
+A | [Card Mobile] | 10,1175 370x395
+DIV | [Background Wrap] | 10,1175 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,1180 360x332 | r17px
+DIV | 15,1180 360x332 | r17px
+IMG | 15,1180 360x332 | r17px | img cover natural:360x189 lALNZMO2MjfMfk5UyIi9DMuQ.jpg
+VIDEO | 15,1180 360x332 | video auto:true cover natural:1366x720 Georgia%20thumbnail.mp4
+DIV | [Text Wrapper] | 15,1511 457x65
+P | Georgia | 25,1525 57x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Music | 25,1545 38x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+DIV | [Projects Row] | 0,1579 390x1205
+DIV | [Collection Item Wrapper] | 10,1579 370x395
+DIV | [Featured Video Card] | 10,1580 370x395
+A | [Card Mobile] | 10,1580 370x395
+DIV | [Background Wrap] | 10,1580 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,1585 360x332 | r17px
+DIV | 15,1585 360x332 | r17px
+IMG | 15,1585 360x332 | r17px | img cover natural:360x202 oMQkOmi8ft97atPRBevSApwxDQ.jpg
+VIDEO | 15,1585 360x332 | video auto:true cover natural:1280x720 Crisp%20thumbnail.mp4
+DIV | [Text Wrapper] | 15,1916 457x65
+P | Crisp | 25,1930 39x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Music | 25,1950 38x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+DIV | [Collection Item Wrapper] | 10,1984 370x395
+DIV | [Featured Video Card] | 10,1985 370x395
+A | [Card Mobile] | 10,1985 370x395
+DIV | [Background Wrap] | 10,1985 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,1990 360x332 | r17px
+DIV | 15,1990 360x332 | r17px
+IMG | 15,1990 360x332 | r17px | img cover natural:360x202 YUrCGIdFCXdr6Z8yytP5iIEUI.jpg
+VIDEO | 15,1990 360x332 | video auto:true cover natural:1280x720 Rakhi%20thumnail%20and%20full%20video.mp4
+DIV | [Text Wrapper] | 15,2321 457x65
+P | Rakhi & Peppe | 25,2335 99x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Music | 25,2355 38x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+DIV | [Collection Item Wrapper] | 10,2389 370x395
+DIV | [Featured Video Card] | 10,2390 370x395
+A | [Card Mobile] | 10,2390 370x395
+DIV | [Background Wrap] | 10,2390 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,2395 360x332 | r17px
+DIV | 15,2395 360x332 | r17px
+IMG | 15,2395 360x332 | r17px | img cover natural:360x270 q9puvs3ya6AkXLkbyV305H8vE.jpg
+VIDEO | 15,2395 360x332 | video auto:true cover natural:960x720 Office%20full%20video%20and%20thumbnail.mp4
+DIV | [Text Wrapper] | 15,2726 457x65
+P | Office | 25,2740 44x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Short Film | 25,2760 66x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+DIV | [Projects Row] | 0,2794 390x1205
+DIV | [Collection Item Wrapper] | 10,2794 370x395
+DIV | [Featured Video Card] | 10,2795 370x395
+A | [Card Mobile] | 10,2795 370x395
+DIV | [Background Wrap] | 10,2795 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,2800 360x332 | r17px
+DIV | 15,2800 360x332 | r17px
+IMG | 15,2800 360x332 | r17px | img cover natural:360x202 ydAoPqxQuBOLACCIDKAjpNXDCpY.jpg
+VIDEO | 15,2800 360x332 | video auto:true cover natural:1280x720 Chaance%20thumbnail%20and%20full%20video.mp4
+DIV | [Text Wrapper] | 15,3131 457x65
+P | Chaance | 25,3145 60x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Advertisement | 25,3165 92x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+DIV | [Collection Item Wrapper] | 10,3199 370x395
+DIV | [Featured Video Card] | 10,3200 370x395
+A | [Card Mobile] | 10,3200 370x395
+DIV | [Background Wrap] | 10,3200 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,3205 360x332 | r17px
+DIV | 15,3205 360x332 | r17px
+IMG | 15,3205 360x332 | r17px | img cover natural:360x202 5ybI15qRqpZxwBNob2WKP0iM7RY.jpg
+VIDEO | 15,3205 360x332 | video auto:true cover natural:1280x720 33%20percent%20thumbnail.mp4
+DIV | [Text Wrapper] | 15,3536 457x65
+P | 33 Percent | 25,3550 79x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Short Film | 25,3570 66x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+DIV | [Collection Item Wrapper] | 10,3604 370x395
+DIV | [Featured Video Card] | 10,3605 370x395
+A | [Card Mobile] | 10,3605 370x395
+DIV | [Background Wrap] | 10,3605 370x395 | bgrgb(20, 20, 20) | r20px
+DIV | [Video Wrapper] | 15,3610 360x332 | r17px
+DIV | 15,3610 360x332 | r17px
+IMG | 15,3610 360x332 | r17px | img cover natural:1280x720 vb3OEMTOUTGdvwYK4B8uG2ZQ.jpg
+VIDEO | 15,3610 360x332 | video auto:true cover natural:1280x720 Sounder%20thumbnail.mp4
+DIV | [Text Wrapper] | 15,3941 457x65
+P | sounder | 25,3955 63x20 | "Fjalla One" 18px w400 lh19.8px lsnormal rgb(220, 220, 220) uppercase start
+P | Short Film | 25,3975 66x14 | Poppins 12px w400 lh14.4px lsnormal rgb(220, 220, 220) uppercase start
+SECTION | [Section Outro] | 0,4199 390x462
+DIV | [Text Wrapper] | 0,4199 390x135
+DIV | [Top Row] | 0,4199 390x65
+DIV | [Breathe life into your ideas] | 0,4325 390x65
+H3 | Breathe life | 0,4325 390x65 | "Fjalla One" 60px w400 lh65px ls-1.5px rgb(220, 220, 220) uppercase center
+DIV | [Bottom Row] | 0,4269 390x65
+DIV | [Breathe life into your ideas] | 0,4395 390x65
+H3 | into your ideas | 0,4395 390x65 | "Fjalla One" 60px w400 lh65px ls-1.5px rgb(220, 220, 220) uppercase center
+DIV | [Image Wrapper] | 0,4384 390x227
+DIV | [Outro Image] | 85,4367 220x262 | r17px
+DIV | 85,4367 220x262 | r17px
+IMG | 85,4367 220x262 | r17px | img cover natural:220x278 OAi4jG3byONsAQorThuhUUm3HE.jpeg?scale-down-to=1024
+FOOTER | [Footer - Mobile] | 0,4661 390x638
+DIV | [Footer Link Container] | 0,4661 390x588
+DIV | [Footer Row - Top] | 50,4661 291x226
+DIV | [Footer Link Wrap] | 70,4681 251x103
+DIV | [Link Big] | 134,4696 113x40
+P | Socials | 134,4696 113x40 | "Fjalla One" 40px w400 lh40px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 90,4739 201x30
+DIV | [Footer Link] | 90,4739 59x30
+DIV | [Link Small] | 90,4744 59x20
+A | Twitter | 90,4741 59x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 157,4739 81x30
+DIV | [Link Small] | 157,4744 81x20
+A | Instagram | 157,4741 81x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 246,4739 44x30
+DIV | [Link Small] | 246,4744 44x20
+A | Vimeo | 246,4741 44x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 123,4784 145x103
+DIV | [Link Big] | 147,4799 86x40
+P | work | 147,4799 86x40 | "Fjalla One" 40px w400 lh40px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 143,4842 95x30
+DIV | [Footer Link] | 143,4842 95x30
+DIV | [Link Small] | 143,4847 95x20
+A | All projects | 143,4844 95x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Row - Bottom] | 74,4887 242x362
+DIV | [Footer Link Wrap] | 99,4887 192x103
+DIV | [Link Big] | 119,4902 142x40
+P | let's talk | 119,4902 142x40 | "Fjalla One" 40px w400 lh40px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Social Links] | 142,4945 96x30
+DIV | [Footer Link] | 142,4945 41x30
+DIV | [Link Small] | 142,4950 41x20
+A | email | 142,4947 41x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 191,4945 47x30
+DIV | [Link Small] | 191,4950 47x20
+A | phone | 191,4947 47x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 124,4990 143x103
+DIV | [Link Big] | 144,5005 93x40
+P | about | 144,5005 93x40 | "Fjalla One" 40px w400 lh40px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 156,5048 69x30
+DIV | [Footer Link] | 156,5048 69x30
+DIV | [Link Small] | 156,5053 69x20
+A | about us | 156,5050 69x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 109,5093 173x136
+DIV | [Link Big] | 129,5108 123x40
+P | made by | 129,5108 123x40 | "Fjalla One" 40px w400 lh40px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Footer / Footer Link] | 174,5151 31x30
+DIV | [Footer Link] | 174,5151 27x30
+DIV | [Link Small] | 174,5156 27x20
+A | ena | 174,5153 27x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Link Small] | 201,5156 4x20
+P | , | 201,5156 4x20 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 172,5184 36x30
+DIV | [Link Small] | 172,5189 36x20
+A | Arqé | 172,5186 36x25 | "Fjalla One" 20px w400 lh20px ls-0.5px rgb(99, 99, 99) uppercase start

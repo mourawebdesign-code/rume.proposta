@@ -1,0 +1,257 @@
+URL https://apexfilms.framer.website/about H=4772
+DIV | 0,0 1440x4772 | bgrgb(0, 0, 0)
+DIV | [Navigation] | 0,0 1440x80 | fixed
+NAV | [Navigation Desktop] | 0,0 1440x80
+DIV | [Menu] | 24,0 1392x80
+A | [Link] | 24,33 51x14
+P | Works | 24,33 51x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+P | Works | 24,50 51x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+A | [Link] | 93,33 47x14
+P | About | 93,33 47x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+P | About | 93,50 47x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+DIV | [Logo Wrap] | 491,16 457x48
+A | [APEX_FILMS_LOGO] | 657,27 127x27
+A | [Link] | 1347,33 69x14
+P | Let's Talk | 1347,33 69x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+P | Let's Talk | 1347,50 69x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+MAIN | [Main Wrapper] | 0,0 1440x4610 | bgrgba(51, 170, 255, 0)
+HEADER | [About Hero] | 0,138 1200x584 | bgrgba(153, 238, 255, 0)
+DIV | [Intro Text] | 0,138 1200x584
+DIV | [Text Row] | 20,138 1068x100
+DIV | [We believe that every story is unique and deserves to be told in a way that captivates and inspires every audience.] | 20,138 1068x100
+H3 | We believe that every | 20,138 1068x100 | "Fjalla One" 100px w400 lh100px ls-1.5px rgb(220, 220, 220) uppercase left
+DIV | [Text Row] | 20,258 1051x100
+DIV | [We believe that every story is unique and deserves to be told in a way that captivates and inspires every audience.] | 20,258 226x100
+H3 | story | 20,258 226x100 | "Fjalla One" 100px w400 lh100px ls-1.5px rgb(220, 220, 220) uppercase left
+DIV | [Text Video Wrapper] | 271,261 231x95 | r10px
+VIDEO | 264,240 245x137 | video auto:true cover natural:1366x720 Georgia%20thumbnail.mp4
+DIV | [We believe that every story is unique and deserves to be told in a way that captivates and inspires every audience.] | 522,258 360x100
+H3 | is unique | 522,258 360x100 | "Fjalla One" 100px w400 lh100px ls-1.5px rgb(220, 220, 220) uppercase left
+DIV | [Text Row] | 20,378 1068x100
+DIV | [We believe that every story is unique and deserves to be told in a way that captivates and inspires every audience.] | 20,378 1068x100
+H3 | and deserves to be told | 20,378 1068x100 | "Fjalla One" 100px w400 lh100px ls-1.5px rgb(220, 220, 220) uppercase left
+DIV | [Text Row] | 20,498 1068x100
+DIV | [We believe that every story is unique and deserves to be told in a way that captivates and inspires every audience.] | 20,498 1068x100
+H3 | in a way that captivates | 20,498 1068x100 | "Fjalla One" 100px w400 lh100px ls-1.5px rgb(220, 220, 220) uppercase left
+DIV | [Text Row] | 20,618 1068x100
+DIV | [Text Video Wrapper] | 20,621 235x95 | r10px
+VIDEO | 15,600 245x137 | video auto:true cover natural:1280x720 spyder%20thumbnail.mp4
+DIV | [We believe that every story is unique and deserves to be told in a way that captivates and inspires every audience.] | 275,618 635x100
+H3 | every audience. | 275,618 635x100 | "Fjalla One" 100px w400 lh100px ls-1.5px rgb(220, 220, 220) uppercase left
+SECTION | [Section Intro] | 0,732 1440x638 | bgrgba(68, 204, 255, 0)
+DIV | [We take pride in providing our clients with an unforgettable experience from start to finish. From brainstorming sessions to casting calls, from scouting locations to post-production, we handle every aspect of the filmmaking process with care and attention to detail.] | 923,952 477x168
+P | We take pride in providing our clients with an unforgettable | 923,952 477x168 | Poppins 20px w400 lh28px lsnormal rgb(220, 220, 220) none start
+SECTION | [Section Team Cards] | 0,1380 1440x600
+DIV | [Variant 1] | 10,1390 467x604
+DIV | [Image Wrapper] | 10,1418 467x508 | bgrgb(20, 20, 20) | r19px
+DIV | [Noverflow] | 15,1423 457x498 | r16px
+DIV | [Team Image] | 15,1423 457x498
+IMG | 15,1423 457x498 | img cover natural:1440x2160 HLyILAPJ5fclboAaBLsSQWKKC0.jpg
+DIV | [Title Wrapper] | 55,1936 377x30
+DIV | [Erin Carder] | 155,1940 112x24
+P | Erin Carder | 155,1940 112x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [ceo] | 275,1946 57x20
+H3 | Partner | 275,1946 57x20 | Poppins 14px w400 lh19.6px ls-0.3px rgb(98, 98, 98) uppercase center
+DIV | [Variant 1] | 487,1390 467x604
+DIV | [Image Wrapper] | 487,1418 467x508 | bgrgb(20, 20, 20) | r19px
+DIV | [Noverflow] | 492,1423 457x498 | r16px
+DIV | [Team Image] | 492,1423 457x498
+IMG | 492,1423 457x498 | img cover natural:1440x945 fqpcECIFWKLNDkH0Tm8I855pqE.jpg?scale-down-to=2048
+DIV | [Title Wrapper] | 531,1936 377x30
+DIV | [Erin Carder] | 632,1940 104x24
+P | Maia Lunde | 632,1940 104x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [ceo] | 744,1946 65x20
+H3 | Director | 744,1946 65x20 | Poppins 14px w400 lh19.6px ls-0.3px rgb(98, 98, 98) uppercase center
+DIV | [Variant 1] | 963,1390 467x604
+DIV | [Image Wrapper] | 963,1418 467x508 | bgrgb(20, 20, 20) | r19px
+DIV | [Noverflow] | 968,1423 457x498 | r16px
+DIV | [Team Image] | 968,1423 457x498
+IMG | 968,1423 457x498 | img cover natural:1440x1956 k6HnDt2SFPm5vDXXapaDYLHqlY.jpg?scale-down-to=2048
+DIV | [Title Wrapper] | 1008,1936 377x30
+DIV | [Erin Carder] | 1116,1940 96x24
+P | Logan Roy | 1116,1940 96x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [ceo] | 1220,1946 57x20
+H3 | Partner | 1220,1946 57x20 | Poppins 14px w400 lh19.6px ls-0.3px rgb(98, 98, 98) uppercase center
+SECTION | [Section Team All] | 0,1990 1440x1029
+DIV | [Team List Wrapper] | 521,2190 397x629
+DIV | [List Title Wrapper] | 521,2190 397x77
+DIV | [impossible] | 521,2190 209x47
+P | impossible | 521,2190 209x47 | "Fjalla One" 48px w400 lh47.04px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [without] | 651,2240 79x24
+P | without | 651,2240 79x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [the help] | 736,2220 158x47
+P | the help | 736,2220 158x47 | "Fjalla One" 48px w400 lh47.04px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [of] | 897,2240 22x24
+P | of | 897,2240 22x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [Team List] | 591,2367 259x453
+DIV | [Role Wrapper] | 590,2367 114x453
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 647,2367 57x21
+P | DIRECTOR | 647,2367 57x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 647,2395 57x21
+P | DIRECTOR | 647,2395 57x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 641,2424 63x21
+P | PRODUCER | 641,2424 63x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 647,2453 57x21
+P | DIRECTOR | 647,2453 57x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 590,2482 114x21
+P | CINEMATOGRAPHER | 590,2482 114x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 592,2511 112x21
+P | CAMERA OPERATOR | 592,2511 112x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 592,2539 112x21
+P | CAMERA OPERATOR | 592,2539 112x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 611,2568 93x21
+P | GRIP + ELECTRIC | 611,2568 93x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 616,2597 88x21
+P | SOUND DESIGN | 616,2597 88x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 616,2626 88x21
+P | SOUND DESIGN | 616,2626 88x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 611,2655 93x21
+P | FILM ASSISTANT | 611,2655 93x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 597,2683 107x21
+P | SOUND ASSISTANT | 597,2683 107x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 603,2712 101x21
+P | MAKE UP & HAIR | 603,2712 101x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 658,2741 46x21
+P | COLOUR | 658,2741 46x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 656,2770 48x21
+P | STYLING | 656,2770 48x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [DIRECTOR DIRECTOR PRODUCER CINEMATOGRAPHER CAMERA OPERATOR CAMERA OPERATOR GRIP + ELECTRIC SOUND DESIGN SOUND DESIGN FILM ASSISTANT SOUND ASSISTANT INTERN] | 590,2799 114x21
+P | STYLING ASSISTANT | 590,2799 114x21 | "Fjalla One" 16px w400 lh20.8px lsnormal rgb(220, 220, 220) capitalize right
+DIV | [Name Wrapper] | 719,2367 131x453
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2367 93x21
+P | Louis Meyer | 719,2367 93x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2395 82x21
+P | Colin Grey | 719,2395 82x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2424 91x21
+P | Hans Room | 719,2424 91x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2453 123x21
+P | Katrina Hayden | 719,2453 123x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2482 86x21
+P | Zaire Lubin | 719,2482 86x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2511 87x21
+P | Justin Torff | 719,2511 87x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2539 131x21
+P | Ashlynn Madsen | 719,2539 131x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2568 88x21
+P | Zain Philips | 719,2568 88x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2597 115x21
+P | Lindsey Gouse | 719,2597 115x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2626 107x21
+P | Charlie Donin | 719,2626 107x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2655 88x21
+P | Erin Carder | 719,2655 88x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2683 111x21
+P | Aspen Dokidis | 719,2683 111x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2712 105x21
+P | Clyde Franco | 719,2712 105x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2741 101x21
+P | Josef Phillips | 719,2741 101x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2770 97x21
+P | Alys Bradley | 719,2770 97x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+DIV | [Louis Meyer Colin Grey Hans Room Colin Grey Zaire Lubin Justin Torff Ashlynn Madsen Zain Philips Lindsey Gouse Charlie Donin Erin Carder Aspen Dokidis] | 719,2799 110x21
+P | Tamsin Griffin | 719,2799 110x21 | Poppins 16px w400 lh20.8px lsnormal rgb(220, 220, 220) none start
+SECTION | [Section Awards] | 0,3029 1440x920
+DIV | [Section Title Wrapper] | 636,3229 169x103
+DIV | [Section Title] | 636,3229 169x103
+DIV | [PROUDLY] | 636,3229 78x24
+P | PROUDLY | 636,3229 78x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase left
+DIV | [AWARDED] | 636,3259 169x47
+P | AWARDED | 636,3259 169x47 | "Fjalla One" 48px w400 lh47.04px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [WITH] | 759,3309 45x24
+P | WITH | 759,3309 45x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [Awards Container] | 120,3332 1200x417
+DIV | [Award Wrapper] | 220,3432 333x167
+DIV | [Award Logo] | 342,3432 89x59
+IMG | 342,3432 89x59 | img cover natural:88x58 329g5GXQ2TDH3XbgItN247sV8.png?scale-down-to=512
+DIV | [Text Wrapper] | 242,3522 289x78
+DIV | [GRAND PRIZE AWARD DIRECTORS GUILD OF AMERICA 2023] | 242,3522 289x21
+P | GRAND PRIZE AWARD | 242,3522 289x21 | "Fjalla One" 16px w400 lh20.8px ls-0.32px rgb(220, 220, 220) uppercase center
+DIV | [GRAND PRIZE AWARD DIRECTORS GUILD OF AMERICA 2023] | 242,3550 289x24
+P | DIRECTORS GUILD OF AMERICA | 242,3550 289x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [GRAND PRIZE AWARD DIRECTORS GUILD OF AMERICA 2023] | 242,3580 289x20
+H3 | 2023 | 242,3580 289x20 | Poppins 14px w400 lh19.6px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [Award Wrapper] | 553,3433 333x167
+DIV | [Award Logo] | 671,3433 99x59
+IMG | 671,3433 99x59 | img cover natural:442x263 aRb7zJo0bQVjVL1ZPSd8XrFGY.png
+DIV | [Text Wrapper] | 558,3522 325x78
+DIV | [OFFICIAL SELECTION THE FILM SERIES AT CINEGEAR 2021] | 558,3522 325x21
+P | OFFICIAL SELECTION | 558,3522 325x21 | "Fjalla One" 16px w400 lh20.8px ls-0.32px rgb(220, 220, 220) uppercase center
+DIV | [OFFICIAL SELECTION THE FILM SERIES AT CINEGEAR 2021] | 558,3549 325x24
+P | THE FILM SERIES AT CINEGEAR | 558,3549 325x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [OFFICIAL SELECTION THE FILM SERIES AT CINEGEAR 2021] | 558,3580 325x20
+H3 | 2022 | 558,3580 325x20 | Poppins 14px w400 lh19.6px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [Award Wrapper] | 887,3433 333x167
+DIV | [Award Logo] | 887,3433 333x59
+IMG | 887,3433 333x59 | img contain natural:440x233 fXsOAtmbn1O4dSTPHUTlxzh1Qw.png
+DIV | [Text Wrapper] | 909,3522 289x78
+DIV | [OFFICIAL SELECTION HBO'S SHORT FILM COMPETITION 2022] | 909,3522 289x21
+P | OFFICIAL SELECTION | 909,3522 289x21 | "Fjalla One" 16px w400 lh20.8px ls-0.32px rgb(220, 220, 220) uppercase center
+DIV | [OFFICIAL SELECTION HBO'S SHORT FILM COMPETITION 2022] | 909,3549 289x24
+P | HBO'S FILM COMPETITION | 909,3549 289x24 | "Fjalla One" 24px w400 lh23.52px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [OFFICIAL SELECTION HBO'S SHORT FILM COMPETITION 2022] | 909,3580 289x20
+H3 | 2022 | 909,3580 289x20 | Poppins 14px w400 lh19.6px ls-0.3px rgb(220, 220, 220) uppercase center
+SECTION | [Section Outro] | 0,3960 1440x650
+DIV | [Text Wrapper] | 0,4064 1440x205
+DIV | [Top Row] | 0,4064 1440x100
+DIV | [Breathe life into your ideas] | 0,4189 1440x100
+H3 | visual | 0,4189 1440x100 | "Fjalla One" 100px w400 lh100px ls-1.5px rgb(220, 220, 220) uppercase center
+DIV | [Bottom Row] | 0,4169 1440x100
+DIV | [Breathe life into your ideas] | 0,4294 1440x100
+H3 | storytellers | 0,4294 1440x100 | "Fjalla One" 100px w400 lh100px ls-1.5px rgb(220, 220, 220) uppercase center
+DIV | [Image Wrapper] | 0,4329 1440x227
+DIV | [Outro Image] | 590,4287 260x310 | r20px
+DIV | 590,4287 260x310 | r20px
+IMG | 590,4287 260x310 | r20px | img cover natural:260x328 UoNIFBSsEl9qHfn9BoKU9qiY.jpeg?scale-down-to=1024
+FOOTER | [Footer - Desktop] | 0,4610 1440x162
+DIV | [Footer Link Container] | 120,4610 1200x132
+DIV | [Footer Row - Top] | 120,4610 1200x66
+DIV | [Footer Link Wrap] | 387,4618 400x50
+DIV | [Link Big] | 387,4618 143x50
+P | Socials | 387,4618 143x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 537,4638 249x30
+DIV | [Footer Link] | 537,4638 75x30
+DIV | [Link Small] | 537,4640 75x25
+A | Twitter | 537,4637 75x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 620,4638 103x30
+DIV | [Link Small] | 620,4640 103x25
+A | Instagram | 620,4637 103x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 731,4638 56x30
+DIV | [Link Small] | 731,4640 56x25
+A | Vimeo | 731,4637 56x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 817,4618 237x50
+DIV | [Link Big] | 817,4618 109x50
+P | work | 817,4618 109x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 933,4638 120x30
+DIV | [Footer Link] | 933,4638 120x30
+DIV | [Link Small] | 933,4640 120x25
+A | All projects | 933,4637 120x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Row - Bottom] | 120,4676 1200x66
+DIV | [Footer Link Wrap] | 302,4684 308x50
+DIV | [Link Big] | 302,4684 180x50
+P | let's talk | 302,4684 180x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Social Links] | 490,4704 120x30
+DIV | [Footer Link] | 490,4704 52x30
+DIV | [Link Small] | 490,4706 52x25
+A | email | 490,4703 52x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 550,4704 60x30
+DIV | [Link Small] | 550,4706 60x25
+A | phone | 550,4703 60x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 640,4684 212x50
+DIV | [Link Big] | 640,4684 117x50
+P | about | 640,4684 117x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 765,4704 87x30
+DIV | [Footer Link] | 765,4704 87x30
+DIV | [Link Small] | 765,4706 87x25
+A | about us | 765,4703 87x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 882,4684 256x50
+DIV | [Link Big] | 882,4684 155x50
+P | made by | 882,4684 155x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Footer / Footer Link] | 1045,4704 39x30
+DIV | [Footer Link] | 1045,4704 34x30
+DIV | [Link Small] | 1045,4706 34x25
+A | ena | 1045,4703 34x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Link Small] | 1079,4706 6x25
+P | , | 1079,4706 6x25 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 1093,4704 46x30
+DIV | [Link Small] | 1093,4706 46x25
+A | Arqé | 1093,4703 46x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start

@@ -1,0 +1,91 @@
+URL https://apexfilms.framer.website/contact H=1008
+DIV | 0,0 1024x1008 | bgrgb(0, 0, 0)
+DIV | [Navigation] | 0,0 1024x80 | fixed
+NAV | [Navigation Tablet] | 0,0 1024x80
+DIV | [Menu] | 20,0 984x80
+A | [Link - No hover] | 20,33 51x14
+P | Works | 20,33 51x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+P | Works | 20,50 51x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+A | [Link - No hover] | 89,33 47x14
+P | About | 89,33 47x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+P | About | 89,50 47x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+DIV | [Logo Wrap] | 351,16 321x48
+A | [APEX_FILMS_LOGO] | 456,28 113x24
+A | [Link - No hover] | 935,33 69x14
+P | Let's Talk | 935,33 69x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+P | Let's Talk | 935,50 69x14 | Poppins 14px w500 lh14px lsnormal rgb(220, 220, 220) uppercase left
+MAIN | [Main Wrapper] | 0,0 1024x768
+SECTION | [Section Contact] | 0,0 1024x768
+DIV | [Contact Details Wrapper] | 0,109 1024x450
+DIV | [Email Wrapper] | 0,109 1024x80
+DIV | [Send an email] | 457,109 110x21
+H2 | send an email | 457,109 110x21 | Poppins 16px w400 lh20.8px ls-0.3px rgb(220, 220, 220) uppercase center
+A | [Email - Tablet] | 303,140 418x49
+BUTTON | 312,140 400x48 | bgrgb(0, 102, 255) | r50px
+DIV | [Label] | 303,141 418x47
+P | HELLO@APEXFILMS.COM | 303,141 418x47 | "Fjalla One" 48px w400 lh47.04px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [Address Wrapper] | 0,249 1024x172
+DIV | [Drop By] | 480,249 64x21
+H2 | drop by | 480,249 64x21 | Poppins 16px w400 lh20.8px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [Contact Link - Tablet] | 0,280 1024x141
+DIV | [Singel 258, 1016 AB Amsterdam, Netherlands] | 312,280 400x141
+A | Singel 258, 1016 AB Amsterdam, Netherlands | 330,273 374x154 | "Fjalla One" 48px w400 lh47.04px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [Phone Wrapper] | 0,481 1024x78
+DIV | [Phone Us] | 475,481 74x21
+H2 | phone us | 475,481 74x21 | Poppins 16px w400 lh20.8px ls-0.3px rgb(220, 220, 220) uppercase center
+DIV | [Contact Link - Tablet] | 0,512 1024x47
+DIV | [Singel 258, 1016 AB Amsterdam, Netherlands] | 312,512 400x47
+A | +31 71 549 8627 | 368,505 287x60 | "Fjalla One" 48px w400 lh47.04px ls-0.3px rgb(220, 220, 220) uppercase center
+FOOTER | [Footer - Tablet] | 0,768 1024x240
+DIV | [Footer Link Container] | 0,768 1024x210
+DIV | [Footer Row - Top] | 174,768 677x70
+DIV | [Footer Link Wrap] | 184,778 400x50
+DIV | [Link Big] | 184,778 143x50
+P | Socials | 184,778 143x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 334,798 249x30
+DIV | [Footer Link] | 334,798 75x30
+DIV | [Link Small] | 334,801 75x25
+A | Twitter | 334,798 75x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 417,798 103x30
+DIV | [Link Small] | 417,801 103x25
+A | Instagram | 417,798 103x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 528,798 56x30
+DIV | [Link Small] | 528,801 56x25
+A | Vimeo | 528,798 56x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 604,778 237x50
+DIV | [Link Big] | 604,778 109x50
+P | work | 604,778 109x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 720,798 120x30
+DIV | [Footer Link] | 720,798 120x30
+DIV | [Link Small] | 720,801 120x25
+A | All projects | 720,798 120x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Row - Bottom] | 97,838 829x140
+DIV | [Footer Link Wrap] | 242,838 308x50
+DIV | [Link Big] | 242,838 180x50
+P | let's talk | 242,838 180x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Social Links] | 430,858 120x30
+DIV | [Footer Link] | 430,858 52x30
+DIV | [Link Small] | 430,861 52x25
+A | email | 430,858 52x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 490,858 60x30
+DIV | [Link Small] | 490,861 60x25
+A | phone | 490,858 60x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 570,838 212x50
+DIV | [Link Big] | 570,838 117x50
+P | about | 570,838 117x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Links] | 695,858 87x30
+DIV | [Footer Link] | 695,858 87x30
+DIV | [Link Small] | 695,861 87x25
+A | about us | 695,858 87x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link Wrap] | 384,908 256x50
+DIV | [Link Big] | 384,908 155x50
+P | made by | 384,908 155x50 | "Fjalla One" 50px w400 lh50px ls-1px rgb(98, 98, 98) uppercase start
+DIV | [Footer / Footer Link] | 547,928 39x30
+DIV | [Footer Link] | 547,928 34x30
+DIV | [Link Small] | 547,931 34x25
+A | ena | 547,928 34x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Link Small] | 581,931 6x25
+P | , | 581,931 6x25 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
+DIV | [Footer Link] | 594,928 46x30
+DIV | [Link Small] | 594,931 46x25
+A | Arqé | 594,928 46x31 | "Fjalla One" 25px w400 lh25px ls-0.5px rgb(99, 99, 99) uppercase start
