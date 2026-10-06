@@ -710,6 +710,18 @@
   color: rgba(220, 220, 220, 0.75);
 }
 
+.home-subheadline,
+.home-strategic-text,
+.rume-pillar-text,
+.rume-stat-sentence,
+.rume-stat-conclusion,
+.rume-process-support,
+.process-text,
+.rume-cta-paragraph,
+.rume-about-paragraphs p {
+  text-wrap: balance;
+}
+
 .rume-footer {
   background: var(--offwhite);
   padding: 32px 40px;
@@ -1044,12 +1056,13 @@
     padding-bottom: 24px;
   }
   .home-strategic {
-    padding: 40px 20px 28px;
+    padding: 28px 20px 0;
   }
   .home-strategic-title-wrap {
     width: min(92vw, 1160px);
   }
   .home-strategic-text {
+    margin-top: 16px;
     font-size: 15px;
   }
   .home-light-2 {
