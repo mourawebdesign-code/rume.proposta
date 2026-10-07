@@ -160,7 +160,7 @@ export default function Home() {
             viewport={{ once: true, margin: '-15% 0px' }}
             transition={{ duration: 0.7, ease: EASE_SOFT }}
           >
-            Estratégia Ryan Moura
+            Estratégia
           </motion.p>
           <motion.h2
             className="rume-headline"
