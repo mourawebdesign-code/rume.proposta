@@ -1,11 +1,45 @@
 import { motion } from 'motion/react';
-import { Link } from 'react-router-dom';
 import PortfolioCard from '../components/PortfolioCard';
 import ProcessSteps from '../components/ProcessSteps';
 import { portfolioSites } from '../data/portfolio';
 import { EASE_RISE, EASE_SOFT } from '../components/hooks';
 
 const [projectOne, projectTwo] = portfolioSites;
+
+const WHATSAPP_URL = `https://wa.me/5521986044236?text=${encodeURIComponent(
+  'Olá, Ryan! Vim pelo seu site e quero um site para minha clínica.'
+)}`;
+
+const WHATSAPP_FLOAT_URL = `https://wa.me/5521986044236?text=${encodeURIComponent(
+  'Olá, Ryan! Vim pelo seu site e gostaria de conversar sobre o meu projeto.'
+)}`;
+
+function WhatsAppFloat() {
+  return (
+    <a
+      className="whatsapp-float"
+      href={WHATSAPP_FLOAT_URL}
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Falar com Ryan no WhatsApp"
+    >
+      <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12.04 2a9.9 9.9 0 0 0-8.5 14.96L2 22l5.2-1.5A9.93 9.93 0 1 0 12.04 2zm0 1.8a8.1 8.1 0 0 1 6.9 12.3l-.2.3.7 2.5-2.6-.7-.3.2A8.1 8.1 0 1 1 12.04 3.8zM8.6 7.4c-.2 0-.5.1-.7.4-.3.3-1 1-1 2.4s1 2.7 1.1 2.9c.1.2 2 3.1 4.9 4.3 2.4.9 2.9.7 3.4.7.5-.1 1.7-.7 1.9-1.4.2-.7.2-1.2.2-1.4-.1-.1-.3-.2-.6-.4s-1.7-.8-2-.9-.5-.1-.7.1c-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-.3-.2-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6l.5-.6c.1-.2.2-.3.3-.5.1-.2 0-.4 0-.5l-.9-2.1c-.2-.5-.4-.5-.6-.5z" />
+      </svg>
+    </a>
+  );
+}
+
+function SiteLink({ project }) {
+  return (
+    <a className="featured-link" href={project.url} target="_blank" rel="noopener noreferrer">
+      Acessar site
+      <span className="featured-link-arrow" aria-hidden="true">
+        ↗
+      </span>
+    </a>
+  );
+}
 
 const pillars = [
   {
@@ -37,6 +71,7 @@ const pillars = [
 export default function Home() {
   return (
     <main className="home">
+      <WhatsAppFloat />
       <div className="home-light grain-surface">
         <header className="home-header">
           <div className="home-logo">
@@ -68,6 +103,7 @@ export default function Home() {
             transition={{ duration: 1.4, delay: 0.9, ease: EASE_RISE }}
           >
             <PortfolioCard project={projectOne} />
+            <SiteLink project={projectOne} />
           </motion.div>
         </section>
       </div>
@@ -110,6 +146,7 @@ export default function Home() {
             transition={{ duration: 1.4, delay: 0.9, ease: EASE_RISE }}
           >
             <PortfolioCard project={projectTwo} />
+            <SiteLink project={projectTwo} />
           </motion.div>
         </section>
       </div>
@@ -123,7 +160,7 @@ export default function Home() {
             viewport={{ once: true, margin: '-15% 0px' }}
             transition={{ duration: 0.7, ease: EASE_SOFT }}
           >
-            Estratégia Rume
+            Estratégia Ryan Moura
           </motion.p>
           <motion.h2
             className="rume-headline"
@@ -303,12 +340,12 @@ export default function Home() {
                 viewport={{ once: true, margin: '-15% 0px' }}
                 transition={{ duration: 0.7, delay: 0.25, ease: EASE_SOFT }}
               >
-                <Link to="/contact" className="rume-cta-button">
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="rume-cta-button">
                   <span className="rume-cta-button-text">Quero um site para minha clínica</span>
                   <span className="rume-cta-button-arrow" aria-hidden="true">
                     →
                   </span>
-                </Link>
+                </a>
               </motion.div>
             </div>
 
@@ -335,12 +372,12 @@ export default function Home() {
                 viewport={{ once: true, margin: '-15% 0px' }}
                 transition={{ duration: 0.7, delay: 0.35, ease: EASE_SOFT }}
               >
-                <Link to="/contact" className="rume-cta-button">
+                <a href={WHATSAPP_URL} target="_blank" rel="noopener noreferrer" className="rume-cta-button">
                   <span className="rume-cta-button-text">Quero um site para minha clínica</span>
                   <span className="rume-cta-button-arrow" aria-hidden="true">
                     →
                   </span>
-                </Link>
+                </a>
               </motion.div>
             </motion.div>
           </div>
@@ -356,7 +393,7 @@ export default function Home() {
             viewport={{ once: true, margin: '-15% 0px' }}
             transition={{ duration: 0.9, ease: EASE_SOFT }}
           >
-            <img src="/about/ryan.webp" alt="Ryan, web designer" loading="lazy" />
+            <img src="/about/ryan.webp" alt="Ryan Moura, especialista em web design e automação" loading="lazy" />
           </motion.div>
 
           <div className="rume-about-content">
@@ -368,7 +405,7 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.1, ease: EASE_SOFT }}
             >
               <span className="rume-about-headline-wide">
-                Prazer, eu sou Ryan.
+                Prazer, eu sou Ryan Moura.
                 <br />E vou cuidar do seu projeto.
               </span>
             </motion.h2>
@@ -381,16 +418,17 @@ export default function Home() {
               transition={{ duration: 0.8, delay: 0.2, ease: EASE_SOFT }}
             >
               <p>
-                Sou web designer e acompanho pessoalmente cada projeto, desde a primeira análise até a publicação do
-                site.
+                Sou especialista em web design e automação para negócios locais. Trabalhei em grandes empresas, onde
+                aprendi o que separa um site comum de uma presença digital que realmente gera resultado.
               </p>
               <p>
-                Meu trabalho é entender o que torna cada negócio diferente e transformar isso em uma presença digital
-                que comunique valor, profissionalismo e confiança.
+                Hoje sigo carreira autônoma e coloco toda essa experiência a serviço de quem vive do próprio negócio.
+                Cuido pessoalmente de cada projeto, da estratégia ao design, para que a sua marca seja vista, lembrada
+                e escolhida.
               </p>
               <p>
-                Cada projeto é desenvolvido de forma individual, com atenção à estratégia, ao design e aos detalhes
-                que fazem uma marca se destacar.
+                Meu objetivo é simples: melhorar a sua presença digital e trazer mais clientes da sua região, com um
+                trabalho sob medida, sem templates e sem intermediários.
               </p>
             </motion.div>
           </div>
@@ -400,7 +438,7 @@ export default function Home() {
       <footer className="rume-footer">
         <div className="rume-footer-inner">
           <div className="rume-footer-brand">
-            <p className="rume-footer-mark">Rume</p>
+            <p className="rume-footer-mark">Ryan Moura</p>
             <p className="rume-footer-copy">© 2026. Todos os direitos reservados</p>
           </div>
           <a href="#" className="rume-footer-link">

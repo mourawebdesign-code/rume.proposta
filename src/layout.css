@@ -186,10 +186,77 @@
   margin: 0 auto;
 }
 .featured.featured--row1 {
-  padding-bottom: 50px;
+  padding-bottom: 16px;
 }
 .featured.featured--row2 {
-  padding-bottom: 60px;
+  padding-bottom: 26px;
+}
+.whatsapp-float {
+  position: fixed;
+  right: max(20px, env(safe-area-inset-right));
+  bottom: max(20px, env(safe-area-inset-bottom));
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  background: #25d366;
+  color: #fff;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.22);
+  transition: transform 250ms ease, box-shadow 250ms ease;
+}
+.whatsapp-float svg {
+  width: 32px;
+  height: 32px;
+}
+.whatsapp-float:hover,
+.whatsapp-float:focus-visible {
+  transform: scale(1.07);
+  box-shadow: 0 8px 22px rgba(0, 0, 0, 0.3);
+}
+.whatsapp-float:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 3px;
+}
+@media (max-width: 599px) {
+  .whatsapp-float {
+    width: 54px;
+    height: 54px;
+    right: max(16px, env(safe-area-inset-right));
+    bottom: max(16px, env(safe-area-inset-bottom));
+  }
+}
+.featured-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  width: fit-content;
+  margin: 16px auto 0;
+  padding: 4px 2px;
+  font: 500 12px / 1 var(--display);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(20, 20, 20, 0.55);
+  border-bottom: 1px solid transparent;
+  transition: color 250ms ease, border-color 250ms ease;
+}
+.featured-link-arrow {
+  font-size: 13px;
+  transition: transform 250ms ease;
+}
+.featured-link:hover,
+.featured-link:focus-visible {
+  color: rgb(20, 20, 20);
+  border-bottom-color: var(--accent-orange);
+}
+.featured-link:hover .featured-link-arrow {
+  transform: translate(2px, -2px);
+}
+.featured-link:focus-visible {
+  outline: none;
 }
 
 /* ---------- strategic (light) section: "Não é apenas sobre ser bonito." ---------- */
@@ -889,13 +956,13 @@
     width: calc(100% - 32px);
   }
   .featured.featured--row1 {
-    padding-bottom: 24px;
+    padding-bottom: 0;
   }
   .featured.featured--row2 {
-    padding-bottom: 28px;
+    padding-bottom: 0;
   }
   .home-strategic {
-    padding: 56px 40px 40px;
+    padding: 46px 40px 40px;
   }
   .home-strategic-title-wrap {
     width: min(88vw, 1160px);
@@ -1050,13 +1117,16 @@
     width: calc(100% - 32px);
   }
   .featured.featured--row1 {
-    padding-bottom: 20px;
+    padding-bottom: 0;
   }
   .featured.featured--row2 {
-    padding-bottom: 24px;
+    padding-bottom: 0;
+  }
+  .featured-link {
+    margin-top: 12px;
   }
   .home-strategic {
-    padding: 28px 20px 0;
+    padding: 14px 20px 0;
   }
   .home-strategic-title-wrap {
     width: min(92vw, 1160px);
