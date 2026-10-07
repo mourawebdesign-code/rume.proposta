@@ -6,8 +6,8 @@ const OUT_DIR = process.argv[2];
 mkdirSync(OUT_DIR, { recursive: true });
 
 const sites = [
-  { slug: 'clinica-estetica-02', url: 'https://clinica-estetica-02-git-clinica-estetica-02-rume2.vercel.app/' },
-  { slug: 'lumea', url: 'https://lumea-aesthetics-three.vercel.app/' },
+  { slug: 'lumea-proposta', url: 'https://lumea-proposta.vercel.app/' },
+  { slug: 'portfolio-2', url: 'https://portfolio-2-blush-nine.vercel.app/' },
   { slug: 'organiccare', url: 'https://organiccare.framer.website/' },
   { slug: 'eclat', url: 'https://eclat-template.framer.website/' },
   { slug: 'klinik', url: 'https://klinik-template.framer.website/' },

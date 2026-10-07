@@ -356,7 +356,7 @@ export default function Home() {
             viewport={{ once: true, margin: '-15% 0px' }}
             transition={{ duration: 0.9, ease: EASE_SOFT }}
           >
-            <img src="/about/ryan.jpg" alt="Ryan, fundador da Rume" />
+            <img src="/about/ryan.webp" alt="Ryan, web designer" loading="lazy" />
           </motion.div>
 
           <div className="rume-about-content">

@@ -3,6 +3,6 @@
 // compute how far the frame needs to scroll to reveal the whole page.
 
 export const portfolioSites = [
-  { slug: 'clinica-estetica-02', title: 'Clínica Estética', category: 'Website', url: 'https://clinica-estetica-02-git-clinica-estetica-02-rume2.vercel.app/', image: '/portfolio/clinica-estetica-02.jpg', w: 1440, h: 11543, color: 'rgb(219, 178, 168)' },
-  { slug: 'lumea', title: 'Luméa', category: 'Website', url: 'https://lumea-aesthetics-three.vercel.app/', image: '/portfolio/lumea.jpg', w: 1440, h: 8394, color: 'rgb(197, 189, 224)' },
+  { slug: 'lumea-proposta', title: 'Luméa', category: 'Website', url: 'https://lumea-proposta.vercel.app/', image: '/portfolio/lumea-proposta.jpg', w: 1440, h: 14241, color: 'rgb(197, 189, 224)' },
+  { slug: 'portfolio-2', title: 'Auréa', category: 'Website', url: 'https://portfolio-2-blush-nine.vercel.app/', image: '/portfolio/portfolio-2.jpg', w: 1440, h: 11963, color: 'rgb(219, 178, 168)' },
 ];
