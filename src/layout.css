@@ -189,7 +189,7 @@
   padding-bottom: 16px;
 }
 .featured.featured--row2 {
-  padding-bottom: 26px;
+  padding-bottom: 56px;
 }
 .whatsapp-float {
   position: fixed;
@@ -959,7 +959,7 @@
     padding-bottom: 0;
   }
   .featured.featured--row2 {
-    padding-bottom: 0;
+    padding-bottom: 40px;
   }
   .home-strategic {
     padding: 46px 40px 40px;
@@ -1120,7 +1120,7 @@
     padding-bottom: 0;
   }
   .featured.featured--row2 {
-    padding-bottom: 0;
+    padding-bottom: 36px;
   }
   .featured-link {
     margin-top: 12px;
