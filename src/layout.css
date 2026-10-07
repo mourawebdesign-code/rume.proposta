@@ -776,6 +776,38 @@
   font: 400 17px / 1.6 var(--body);
   color: rgba(220, 220, 220, 0.75);
 }
+/* Desktop only: photo on the left, headline + bio on the right. */
+@media (min-width: 1200px) {
+  .rume-about-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 0.85fr) minmax(0, 1.15fr);
+    column-gap: 90px;
+    align-items: center;
+    text-align: left;
+  }
+  .rume-about-photo {
+    order: 0;
+    width: 100%;
+    max-width: 500px;
+  }
+  .rume-about-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .rume-about-headline {
+    order: 0;
+    font-size: clamp(26px, 2.6vw, 42px);
+  }
+  .rume-about-paragraphs {
+    order: 0;
+    align-items: flex-start;
+    max-width: 520px;
+  }
+  .rume-about-inner .rume-about-paragraphs p {
+    text-wrap: pretty;
+  }
+}
 
 .home-subheadline,
 .home-strategic-text,
